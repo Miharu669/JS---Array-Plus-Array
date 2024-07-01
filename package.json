@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  },
+  "name": "js---array-plus-array",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@vitest/coverage-v8": "^1.6.0",
+    "vitest": "^1.6.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test:unit": "vitest --environment jsdom",
+    "test-cover": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miharu669/JS---Array-Plus-Array.git"
+  },
+  "author": "vero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miharu669/JS---Array-Plus-Array/issues"
+  },
+  "homepage": "https://github.com/Miharu669/JS---Array-Plus-Array#readme",
+  "description": ""
+}
